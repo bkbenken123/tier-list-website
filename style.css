@@ -5,5 +5,9 @@ body {
     background: floralwhite;
     color: #404040;
     text-align: center;
-    font-family: ;
+    font-family: /idk/bold.woff2;
+}
+@font-face {
+    font-family: aileron;
+    src: url(/idk/reg.woff2);
 }
