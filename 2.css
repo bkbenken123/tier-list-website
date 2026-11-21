@@ -1,0 +1,51 @@
+body {
+    background: #222222;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    margin: 0;
+    input::placeholder {
+        color: black;
+        text-align: center;
+    }
+    input {
+        text-align: center;
+    }
+}
+.qwerty * {
+    display: block;
+    max-height: calc(100vh / 7 - 21.5px);
+    aspect-ratio: 4 / 3;
+    border: none;
+    font-size: 100px;
+    font-family: metropolis;
+    padding: 5px;
+    margin-top: 10px;
+}
+.q {
+    background: #ff7f7e;
+}
+.w {
+    background: #ffbf7f;
+}
+.e {
+    background: #feff7f;
+}
+.r {
+    background: #7eff80;
+}
+.t {
+    background: #7fffff;
+}
+.y {
+    background: #807fff;
+}
+.u{
+    background: #ff7ffe;
+    margin-bottom: 10px;
+}
+
+
+@font-face {
+    font-family: metropolis;
+    src: url(/idk/list.woff2);
+}

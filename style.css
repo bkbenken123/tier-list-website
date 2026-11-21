@@ -1,13 +1,60 @@
 img {
-    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
 }
 body {
     background: floralwhite;
     color: #404040;
+    margin: 0;
+}
+.w {
+    background: #1a1a18;
+    height: 100px;
+    width: 100%;
+}
+.a {
+    color: white;
+    position: absolute;
+    top: 0px;
     text-align: center;
-    font-family: /idk/bold.woff2;
+    width: 100%;
+    line-height: 50px;
+}
+h2 {
+    font-family: aileron;
+    font-weight: 800;
+}
+p {
+    font-family: aileron;
+    font-weight: 600px;
+}
+a {
+    font-family: aileron;
+    font-weight: 600p;
+}
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "aileron";
+    src: url(/idk/reg.woff2);
+    font-weight: 600;
 }
 @font-face {
-    font-family: aileron;
-    src: url(/idk/reg.woff2);
+    font-family: "aileron";
+    src: url(/idk/bold.woff2);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "aileron";
+    src: url(/idk/ebold.woff2);
+    font-weight: 800;
 }
